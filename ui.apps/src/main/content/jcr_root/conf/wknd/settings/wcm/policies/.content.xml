@@ -2,14 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <rep:policy/>
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_596888271686277
                         jcr:description="Policy for WKND Structure Components"
-                        jcr:lastModified="{Date}2018-04-03T14:30:56.464-07:00"
+                        jcr:lastModified="{Date}2018-04-04T16:20:12.633-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Structure"
@@ -19,7 +18,7 @@
                     </policy_596888271686277>
                     <policy_597001957386221
                         jcr:description="Policy for WKND Content Components"
-                        jcr:lastModified="{Date}2018-04-03T14:32:32.285-07:00"
+                        jcr:lastModified="{Date}2018-04-04T14:24:05.673-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
@@ -27,8 +26,244 @@
                         components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_597001957386221>
+                    <policy_682976693873190
+                        jcr:description="Policy for sidebar components in article template"
+                        jcr:lastModified="{Date}2018-04-04T14:25:10.148-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Article Sidebar components"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/wknd/components/content/text,/apps/wknd/components/content/image,/apps/wknd/components/content/list]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_682976693873190>
+                    <policy_689331426343512
+                        cq:styleDefaultClasses="cmp-layout-container--footer full-width"
+                        jcr:description="Layout container component in footer for WKND "
+                        jcr:lastModified="{Date}2018-04-04T16:20:33.550-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Layout Container Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:WKND.Content,group:WKND.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_689331426343512>
                 </responsivegrid>
             </components>
         </foundation>
     </wcm>
+    <rep:policy/>
+    <wknd jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <title jcr:primaryType="nt:unstructured">
+                    <policy_1522869285163
+                        jcr:lastModified="{Date}2018-04-04T15:10:51.718-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Title - Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                        type="h1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Styles"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-title--underline"
+                                        cq:styleId="1522869334862"
+                                        cq:styleLabel="Underline"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1522869285163>
+                </title>
+                <text jcr:primaryType="nt:unstructured">
+                    <policy_1522869476734
+                        jcr:description="Policy for WKND Text component"
+                        jcr:lastModified="{Date}2018-04-04T15:13:04.746-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Text - Article"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <paraformat
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <formats
+                                    jcr:primaryType="nt:unstructured"
+                                    override="true">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Paragraph"
+                                        tag="p"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Quote"
+                                        tag="blockquote"/>
+                                </formats>
+                            </paraformat>
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="-">
+                                <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                    <chars
+                                        jcr:primaryType="nt:unstructured"
+                                        override="true">
+                                        <item0
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;copy;"
+                                            name="copyright"/>
+                                        <item1
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;euro;"
+                                            name="euro"/>
+                                        <item2
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;reg;"
+                                            name="registered"/>
+                                        <item3
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;trade;"
+                                            name="trademark"/>
+                                    </chars>
+                                </specialCharsConfig>
+                            </misctools>
+                            <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <findreplace
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <spellcheck
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <table
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <lists
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <justify
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <format
+                                jcr:primaryType="nt:unstructured"
+                                features="bold,italic,underline"/>
+                            <links
+                                jcr:primaryType="nt:unstructured"
+                                features="modifylink,unlink"/>
+                            <subsuperscript
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        </rtePlugins>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Text Styles"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-text--quote"
+                                        cq:styleId="1522869541532"
+                                        cq:styleLabel="Quote Block"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1522869476734>
+                </text>
+                <list jcr:primaryType="nt:unstructured">
+                    <policy_1522869987707
+                        jcr:description="Policy for WKND List component"
+                        jcr:lastModified="{Date}2018-04-04T14:36:23.356-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND List - Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        dateFormat="EEEE, d MMM y"
+                        disableChildren="false"
+                        disableSearch="false"
+                        disableStatic="false"
+                        disableTags="false"
+                        linkItems="false"
+                        showDescription="false"
+                        showModificationDate="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="List Styles"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-list--upnext"
+                                        cq:styleId="1522870036111"
+                                        cq:styleLabel="UpNext"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1522869987707>
+                </list>
+                <image jcr:primaryType="nt:unstructured"/>
+            </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <navigation jcr:primaryType="nt:unstructured">
+                    <policy_1522883494738
+                        cq:styleDefaultClasses="cmp-navigation--footer"
+                        jcr:description="Policy for Footer Navigation component WKND"
+                        jcr:lastModified="{Date}2018-04-04T16:20:42.760-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Footer Navigation"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1522883494738>
+                    <policy_693392613692334
+                        jcr:lastModified="{Date}2018-04-04T17:28:35.209-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Header Navigation"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_693392613692334>
+                </navigation>
+                <header jcr:primaryType="nt:unstructured">
+                    <policy_1522887429990
+                        jcr:description="Policy for WKND Header"
+                        jcr:lastModified="{Date}2018-04-04T17:28:24.139-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        rootPath="/content/wknd/en">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1522887429990>
+                </header>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1522887507083
+                        jcr:lastModified="{Date}2018-04-04T17:28:45.728-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Search - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        resultsSize="10"
+                        searchRoot="/content/wknd/en"
+                        searchTermMinimumLength="3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1522887507083>
+                </search>
+            </structure>
+        </components>
+    </wknd>
 </jcr:root>

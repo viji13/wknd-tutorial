@@ -10,5 +10,5 @@
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/wknd/en"/>
-    <first-article/>
+    <en/>
 </jcr:root>

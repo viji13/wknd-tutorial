@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-03T14:31:21.376-07:00"
+        cq:lastModified="{Date}2018-04-04T15:05:01.713-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -15,10 +15,66 @@
             <responsivegrid
                 jcr:created="{Date}2018-04-03T14:31:21.368-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-03T14:31:43.333-07:00"
+                jcr:lastModified="{Date}2018-04-04T12:38:28.003-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image
+                    jcr:created="{Date}2018-04-04T12:29:42.539-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-04T12:39:19.218-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"/>
+                <title
+                    jcr:created="{Date}2018-04-04T12:29:56.882-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-04T12:39:22.494-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/title"/>
+                <responsivegrid
+                    jcr:created="{Date}2018-04-04T12:40:47.467-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-04T14:26:26.107-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <contentfragment
+                        jcr:created="{Date}2018-04-04T14:26:04.184-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-04T14:26:04.184-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/contentfragment"
+                        text=""/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            behavior="none"/>
+                    </cq:responsive>
+                </responsivegrid>
+                <responsivegrid_2060195453
+                    jcr:created="{Date}2018-04-04T14:23:10.894-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-04T14:26:33.096-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <list
+                        jcr:created="{Date}2018-04-04T14:26:12.028-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-04T14:26:12.028-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/content/list"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            behavior="none"/>
+                    </cq:responsive>
+                </responsivegrid_2060195453>
+            </responsivegrid>
         </root>
     </jcr:content>
 </jcr:root>
