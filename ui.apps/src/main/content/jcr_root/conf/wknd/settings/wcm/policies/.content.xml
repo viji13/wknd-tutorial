@@ -18,7 +18,7 @@
                     </policy_596888271686277>
                     <policy_597001957386221
                         jcr:description="Policy for WKND Content Components"
-                        jcr:lastModified="{Date}2018-04-04T14:24:05.673-07:00"
+                        jcr:lastModified="{Date}2018-04-05T15:03:17.860-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
@@ -208,6 +208,87 @@
                     </policy_1522869987707>
                 </list>
                 <image jcr:primaryType="nt:unstructured"/>
+                <articlecard jcr:primaryType="nt:unstructured">
+                    <policy_1522972573752
+                        jcr:lastModified="{Date}2018-04-05T17:02:26.470-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Article Card"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Text Alignment"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-card--left"
+                                        cq:styleId="1522972712923"
+                                        cq:styleLabel="Left"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-card--right"
+                                        cq:styleId="1522972736712"
+                                        cq:styleLabel="Right"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-card--center"
+                                        cq:styleId="1522972746688"
+                                        cq:styleLabel="Center"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Text Position"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-card--top"
+                                        cq:styleId="1522972783807"
+                                        cq:styleLabel="Top"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-card--bottom"
+                                        cq:styleId="1522972801390"
+                                        cq:styleLabel="Bottom"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                            <item2
+                                cq:styleGroupLabel="Text Color"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-card--default"
+                                        cq:styleId="1522972834800"
+                                        cq:styleLabel="Black"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-card--white"
+                                        cq:styleId="1522972852927"
+                                        cq:styleLabel="White"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item2>
+                            <item3
+                                cq:styleGroupLabel="Size"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-card--default"
+                                        cq:styleId="1522972877493"
+                                        cq:styleLabel="Default"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-card--mini"
+                                        cq:styleId="1522972894066"
+                                        cq:styleLabel="Mini"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item3>
+                        </cq:styleGroups>
+                    </policy_1522972573752>
+                </articlecard>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <navigation jcr:primaryType="nt:unstructured">

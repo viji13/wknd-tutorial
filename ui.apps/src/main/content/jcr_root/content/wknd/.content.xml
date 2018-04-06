@@ -11,4 +11,5 @@
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/wknd/en"/>
     <en/>
+    <first-article/>
 </jcr:root>

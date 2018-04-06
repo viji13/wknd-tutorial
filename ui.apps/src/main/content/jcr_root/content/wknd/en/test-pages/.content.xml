@@ -2,17 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-04T15:28:10.221-07:00"
+        cq:lastModified="{Date}2018-04-05T10:46:13.527-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Home"
+        jcr:title="Test Pages"
         sling:resourceType="wknd/components/structure/page"/>
-    <restaurant/>
-    <bars/>
-    <sport/>
-    <art/>
-    <music/>
-    <shopping/>
-    <test-pages/>
+    <article-card-component-test/>
+    <article-card--test/>
 </jcr:root>

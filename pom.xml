@@ -46,7 +46,7 @@
             </dependency>
             <dependency>
                 <groupId>org.osgi</groupId>
-                <artifactId>osgi.annotation</artifactId>
+                <artifactId>org.osgi.annotation</artifactId>
                 <version>6.0.0</version>
                 <scope>provided</scope>
             </dependency>
@@ -131,7 +131,7 @@
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>6.3.0</version>
+                <version>6.3.1.2</version>
                 <scope>provided</scope>
                 <classifier>apis</classifier>
             </dependency>
